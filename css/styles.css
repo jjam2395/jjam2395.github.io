@@ -20,7 +20,7 @@ body{
 }
 
 	.superior{
-		display: inline-flex;
+		display: flex;
 		justify-content:space-between;
 		background: rgba(0,0,0,.4);
   		width: 100%;
@@ -29,10 +29,9 @@ body{
 	}
 
 
-h4{
-	display: inline-flex;
+h4,h6{
+	display: flex;
 	margin-left: 3%;
-
 }
 
 .sociales{
@@ -184,6 +183,24 @@ p{
 	color: #fff;
 }
 
+.header-portada{
+	display: flex;
+	background-color: #C8C8C8;
+	background-image: url(../images/ItCuautla.png);
+	flex-direction: column;
+	height: 50vh;
+	color: #fff;
+	position: relative;
+}
+
+.superior-portada{
+	display: flex;
+	justify-content:flex-start;
+	background: rgba(0,0,0,.4);
+  	width: 100%;
+  	line-height: 1;	
+}
+
 .integrantes{
 	display: flex;
 	flex-direction: column;
@@ -196,13 +213,18 @@ p{
 }
 
 .title-portada{
-margin-left:2em;
-
+background-color: #0B6231;
+margin: 0;
+padding: .2em;
+color: #fff;
 }
 
 .content-portada{
-margin-left:3em;
+background-color: #eee;
+margin: 0;
+padding: .5em;
 }
+
 
 
 
@@ -228,6 +250,8 @@ margin-left:3em;
 	width: 100%;
 
 }
+
+
 
 }
 
