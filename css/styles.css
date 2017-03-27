@@ -184,6 +184,27 @@ p{
 	color: #fff;
 }
 
+.integrantes{
+	display: flex;
+	flex-direction: column;
+}
+
+.item-integrante{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.title-portada{
+margin-left:2em;
+
+}
+
+.content-portada{
+margin-left:3em;
+}
+
+
 
 @media (max-width: 576px){
  .logo{
@@ -208,9 +229,7 @@ p{
 
 }
 
-
 }
-
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 

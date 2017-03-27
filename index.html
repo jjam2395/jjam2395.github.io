@@ -4,44 +4,113 @@
 <html lang="es-mx">
 <head>
 	<meta charset="UTF-8">
-	<title>Juan Anaya</title>
+	<title>Instituto Tecnológico de Cuautla</title>
 	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina|Roboto" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<link rel="stylesheet" type="text/css" href="fontawesome/css/font-awesome.css">
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
 </head>
 <body>
-	<header>
+	<header class="header-portada">
+	<ul id="dropdown1" class="dropdown-content">
+            <li><a href="integrante1.html">Juan Anaya</a></li>
+            <li><a href="integrante2.html">Cecilia Cortéz</a></li>
+            <li><a href="integrante3.html">Ana Islas</a></li>
+    	</ul>
+			<nav class="opaco">
+            <div class="nav-wrapper">
+                <a href="#" data-activates="mobile-demo" class="button-collapse">
+                    <i class="fa fa-bars fa-3x" aria-hidden="true"></i></a>
+                <div class="row">
+                    <ul class="hide-on-med-and-down">
+                        <div class="col l3">
+                            <li class="fa-nav"><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Inicio</a></li>
+                        </div>
+                        <div class="col l3">
+                            <li class="fa-nav"><a href="#" class="dropdown-button" data-activates="dropdown1"><i class="fa fa-users" aria-hidden="true"></i>Integrantes <i id="flecha" class="fa fa-chevron-down"></i></a></li>
+                        </div>
+                        <div class="col l3">
+                            <li class="fa-nav"><a href="movie.html"><i class="fa fa-film" aria-hidden="true"></i>We like movies</a></li>
+                        </div>
+                        <div class="col l3">
+                            <li class="fa-nav"><a href="song.html"><i class="fa fa-headphones" aria-hidden="true"></i>We like music</a></li>
+                        </div>
+                    </ul>
+                </div>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="index.html">Inicio</a></li>
+                    <ul class="collapsible" data-collapsible="accordion">
+                        <li><a href="#" class="collapsible-header waves-effect">Integrantes</a>
+                            <div class="collapsible-body" style="display:none;">
+                                <ul>
+                                    <li><a href="integrante1.html">Juan</a></li>
+                                    <li><a href="integrante2.html">Cecilia</a></li>
+                                    <li><a href="integrante3.html">Ana</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="movie.html">We like movies</a></li>
+                        <li><a href="song.html">We like music</a></li>
+                </ul>
+            </div>
+        </nav>
 		<div class="superior">
-			<h2>Desarrollador Web</h2> 
-			<div class="sociales">
-				<div class="social-item"> <a href="http://www.facebook.com/jjam2395"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a> </div> 
-				<div class="social-item"> <a href="http://www.twitter.com/jjanayaweb"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a> </div>
-			</div>
+			<h2>Práctica 1 Unidad II</h2>
 		</div>
 		
 		<div class="foto-personal">
-			<figure ><img class="imagen-redondeada" src="images/foto-perfil.png" alt="foto personal"></figure>
+			<figure ><img class="imagen-redondeada" src="imagenes/encabezado.png" alt="foto personal"></figure>
 		</div>
 
-		<div class="nombre"> 
-			<figure class="item-nombre">
-				<img class="logo" src="images/logo-ItCuautla.png" alt="Logo ItCuautla">
-			</figure>	
-			<h1 class="item-nombre">Juan Anaya</h1>
-			<i  class=" item-nombre fa fa-commenting-o fa-2x" aria-hidden="true"></i> 
+		<h2 class="carrera">Ing. en Sistemas Computacionales</h2>
+		<div class="integrantes">
+			<div class="item-integrante">
+				<h1 class="item-nombre">Juan Anaya</h1>
+				<i  class=" item-nombre fa fa-commenting-o fa-2x" aria-hidden="true"></i>
+			</div>
+			<div class="item-integrante">
+				<h1 class="item-nombre">Cecy Cortéz</h1>
+				<i  class=" item-nombre fa fa-commenting-o fa-2x" aria-hidden="true"></i>
+			</div>
+			<div class="item-integrante">
+				<h1 class="item-nombre">Ana Islas</h1>
+				<i  class=" item-nombre fa fa-commenting-o fa-2x" aria-hidden="true"></i>
+			</div>
 		</div>
-		<i></i>
-		<h3 class="carrera">Ing. en Sistemas Computacionales</h3>
+	
 	</header>
 	<section class="contenido">
-		<h1 class="encabezado">Acerca de mi</h1>
-		<p>Mi nombre es Juan Anaya pero puedes decirme Jjanaya, tengo 22 años soy orgullosamente de la heroica e historica Cuautla, Morelos, México</p>
+		
+		<article class="nombre-carrera">
+			<h3 class="title-portada">Materia:</h3>
+			<h4 class="content-portada">Desarrollo de Aplicaciones Web</h4>
+		</article>
 
-		<p>musica</p>
+		<article class="nombre-docente">
+			<h3 class="title-portada">Docente:</h3>
+			<h4 class="content-portada">Armando Rodriguez Jimenez</h4>
+		</article>
 
-		<p>pasatiempos, etc</p>
+		<article class="nombre-unidad">
+			<h3 class="title-portada">Unidad 2:</h3>
+			<h4 class="content-portada">Estilos para diseño Web</h4>
+		</article>
+
+		<article class="nombre-actividad">
+			<h3 class="title-portada">Nombre de la actividad:</h3>
+			<h4 class="content-portada">Práctica 1</h4>
+		</article>
+
+
 	</section>
-	<footer>etc</footer>	
+
+<script type='text/javascript', src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+
 </body>
 </html>
