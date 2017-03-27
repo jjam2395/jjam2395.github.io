@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>John Wick</title>
+    <link href="https://fonts.googleapis.com/css?family=Wire+One|Comfortaa" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="parallax-container">
+      <div class="parallax"><img src="images/john-wick-copia.jpg"></div>
+      <ul id="dropdown1" class="dropdown-content">
+            <li><a href="integrante1.html">Juan Anaya</a></li>
+            <li><a href="integrante2.html">Cecilia Cortéz</a></li>
+            <li><a href="integrante3.html">Ana Islas</a></li>
+      </ul>
+      <nav class="opaco">
+            <div class="nav-wrapper">
+                <a href="#" data-activates="mobile-demo" class="button-collapse">
+                    <i class="fa fa-bars fa-3x" aria-hidden="true"></i></a>
+                <div class="row">
+                    <ul class="hide-on-med-and-down">
+                        <div class="col l3">
+                            <li class="fa-nav"><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Inicio</a></li>
+                        </div>
+                        <div class="col l3">
+                            <li class="fa-nav"><a href="#" class="dropdown-button" data-activates="dropdown1"><i class="fa fa-users" aria-hidden="true"></i>Integrantes <i id="flecha" class="fa fa-chevron-down"></i></a></li>
+                        </div>
+                        <div class="col l3">
+                            <li class="fa-nav"><a href="movie.html"><i class="fa fa-film" aria-hidden="true"></i>We like movies</a></li>
+                        </div>
+                        <div class="col l3">
+                            <li class="fa-nav"><a href="song.html"><i class="fa fa-headphones" aria-hidden="true"></i>We like music</a></li>
+                        </div>
+                    </ul>
+                </div>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="#">Inicio</a></li>
+                    <ul class="collapsible" data-collapsible="accordion">
+                        <li><a href="#" class="collapsible-header waves-effect">Integrantes</a>
+                            <div class="collapsible-body" style="display:none;">
+                                <ul>
+                                    <li><a href="integrante1.html">Juan</a></li>
+                                    <li><a href="integrante2.html">Cecilia</a></li>
+                                    <li><a href="integrante3.html">Ana</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="movie.html">We like movies</a></li>
+                        <li><a href="song.html">We like music</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="section white">
+      <div class="row container">
+        <h2 class="header"><i id="ticket" class="fa fa-ticket"></i>John Wick</h2>
+        <p class="flow-text" align="justify">
+          John Wick es un asesino retirado que perteneció a la mafia rusa radicada en Nueva York, el cual era conocido por
+            el sobrenombre "Baba Yaga" (The Boogeyman). Después de perder a su esposa quien murió de cáncer,
+            recibe la visita de unos matones rusos pertenecientes a la mafia, quienes roban su coche, un 69
+            Ford Mustang boss 429, y matan a su cachorro raza beagle (un regalo de su esposa). Tras investigar
+            quienes fueron los asaltantes, descubre que el líder de la banda (Yosef Tarasov) es el hijo de su
+            ex jefe, Viggo Tarasov. En busca de venganza, arrasa con todo lo que se le interpone a su paso.</p>
+
+                      <video width="640" height="360" controls>
+            <source src="video/trailer.mp4" preload>
+          </video>
+        <div class="center-align">
+
+        </div>
+        <br>
+        <div class="col s6 m6 l6">
+          <img class="images responsive-img" src="images/john-wick-poster1.jpg">
+        </div>
+        <div class="col s6 m6 l6">
+          <img class="images responsive-img" src="images/john-wick-poster2.jpg">
+        </div>
+      </div>
+    </div>
+    <div class="parallax-container">
+      <div class="parallax"><img src="images/john-wick3.jpg"></div>
+    </div>
+
+    <script type='text/javascript', src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>

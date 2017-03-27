@@ -1,0 +1,238 @@
+/*font-family: 'Baloo Bhaina', cursive;*/
+
+
+a{
+	color:#fff;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.header-personal{
+	display: flex;
+	background-color: #C8C8C8;
+	background-image: url(../images/hojas.jpg);
+	flex-direction: column;
+	height: 80vh;
+	color: #fff;
+	position: relative;
+}
+
+	.superior{
+		display: inline-flex;
+		justify-content:space-between;
+		background: rgba(0,0,0,.4);
+  		width: 100%;
+  		line-height: 1;
+		
+	}
+
+
+h4{
+	display: inline-flex;
+	margin-left: 3%;
+
+}
+
+.sociales{
+	display: inline-flex;
+	justify-content: space-around;
+	align-items: center;
+	width:20%;
+}
+
+.fa-facebook-square:hover{
+	color: #3260B7;
+}
+
+
+.fa-twitter-square:hover{
+	color: #54ADC4;
+}
+
+
+.foto-personal{
+	display: flex;
+	justify-content: center;
+}
+
+
+.imagen-redondeada{
+	border-radius: 50%;
+}
+
+.logo{
+	height: 50%;
+	width:50%;
+}
+
+.nombre{
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(0,0,0,.4);
+  	width: 100%;
+  	line-height: 1;
+  	padding-top: .5em;
+	font-family: 'Baloo Bhaina', cursive;
+}
+
+.item-nombre{
+	margin: 0 .5em 0 .5em;
+}
+
+
+.carrera{
+	display: flex;
+	justify-content: center;
+	background: rgba(0,0,0,.5);
+ 	width: 100%;
+  	line-height: 2;
+
+  	margin: 0;
+}
+
+
+.contenido{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.iframe{
+	display: flex;
+	justify-content: center;
+	margin: 3em 0 2em 0;
+}
+
+.header-acercade{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #1D4CFF;
+	color: #fff;
+	padding: 1em;
+}
+
+
+.encabezado{
+	padding: 0;
+	margin: 0;
+}
+
+p{
+	padding: 1em;
+}
+
+
+.header-cancion{
+	background-color: #222;
+	background-image: url(../images/bee-gees-2016.png);
+	height: 70vh;
+	position: relative;
+	color:#fff;
+}
+
+.cancion{
+	display: flex;
+	justify-content: center;
+	background: rgba(0,0,0,.4);
+  	width: 100%;
+  	line-height: 1;
+  	padding: .2em 0 .2em 0;
+}
+
+.inferior{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+
+.letra-cancion{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+.letra-ingles, .letra-español{
+	width: 50%;
+	padding: 0 3em 0 3em;
+	background: #eee;
+	font-size: 120%;
+}
+
+.encabezado-descripcion-cancion{
+	display: flex;
+	justify-content: center;
+	font-size: 200%;
+	background-color: #eee;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #111;
+}
+
+.descripcion-cancion{
+
+	font-size: 120%;
+	background-color: #555;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #fff;
+}
+
+
+@media (max-width: 576px){
+ .logo{
+	display: none;
+}
+
+.item-nombre, .encabezado{
+	font-size: 250%;
+}
+
+.carrera{
+	font-size: 150%;
+
+}
+
+.letra-cancion{
+	flex-direction: column;
+}
+
+.letra-ingles, .letra-español{
+	width: 100%;
+
+}
+
+
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+
+
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+
+
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+
+
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+	
+
+ }

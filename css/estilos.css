@@ -1,0 +1,129 @@
+/*font-family: 'Griffy', cursive;
+font-family: 'Abril Fatface', cursive;*/
+
+body{
+	font-family: 'Abel', sans-serif;
+     
+}
+
+header{
+
+	display: flex;
+	flex-direction: column;
+	background-image: url(../images/cecy.jpg);
+	height: 65vh;
+	color: #fff;
+}
+
+.encabezado{
+	background: rgba(0,0,0,.4);
+	width: 100%;
+	line-height: 1;
+  	display: flex;
+  	justify-content: center;
+}
+
+.sociales{
+	background: rgba(0,0,0,.4);
+	width: 100%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width:100%;
+}
+
+.nombre{
+	display:flex;
+}
+
+.carrera{
+	display:flex;
+}
+.social-item{
+	margin: 1em
+}
+
+.fotocecy{
+	border-radius: 70%;
+}
+
+.mifoto{
+	display: flex;
+	justify-content: center;
+}
+
+
+.conoceme-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.conoceme{
+	background-color: #E35ECC; 
+	font-family: 'Courgette', cursive;
+	display: flex;
+	padding: .5em;
+	margin: 0;
+}
+
+.article-conoceme{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	background-color: #ddd;
+	margin-top: 7vh;
+	border-radius: 1em;
+}
+
+.texto-article{
+	display: flex;
+	justify-content: center;
+	margin: .5em 1em 0 1em;
+}
+
+
+.img-article{
+	display: flex;
+	padding: 0;
+	margin: 0;
+	justify-content: center;
+	margin-bottom: 2em;
+	margin-top: 2em;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.nombregrande{
+	font-size: 4em; 
+	margin: 0 0 .5em 0 ;
+}
+
+
+a{
+	color:#fff;
+}
+
+
+
+.textlogotec{
+	font-family: 'Delius Unicase', cursive;
+
+}
+
+.nombregrande{
+	 font-family: 'Architects Daughter', cursive;
+}
+
+p{
+	padding: 1em;
+}
+.edad{
+	font-family: 'Indie Flower', cursive;
+}
+.musica{
+	font-family: 'Old Standard TT', serif;
+}
