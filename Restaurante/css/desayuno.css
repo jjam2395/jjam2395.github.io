@@ -66,7 +66,7 @@
 }
 
 .fila-ensalada{
-	margin-top:.4%; 
+	margin-top:.4%;
 }
 
 .chip{
@@ -153,9 +153,9 @@
 
 /* para cambiar vista de cada submenu cuando pasas el mouse encima*/
 
-.tabs .tab a: hover{
-	color: blue;
-	background-color: black;
+.tabs .tab a:hover{
+	color: #ffffff;
+
 }
 
 /* para cambiar vista de cada submenu cuando das click*/
@@ -168,7 +168,7 @@
 .tabs .tab a.active{
 	color: black;
 	background-color: #a5d6a7;
-	
+
 }
 
 .caja-manu{
