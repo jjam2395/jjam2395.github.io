@@ -1,0 +1,138 @@
+.header{
+	background: rgba(0,0,0,.5);
+	height: 30vh;
+}
+
+.contenedor-principal{
+	background-image: url("img/Pineaple.jpg");
+
+}
+
+.titulo-principal{
+	margin: 0;
+	color:#fbc02d ;
+	font-family: 'Bubblegum Sans', cursive;
+	font-size: 6em;
+}
+.fa fa-sun-o{
+	color:black;
+}
+
+.conoceme-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.segundoTexto{
+	font-family: 'Shadows Into Light Two', cursive;
+	color: white;
+	margin: 0;
+	font-size: 2.5em;
+}
+
+.card-content{
+	font-family: 'Bubblegum Sans', cursive;
+	font-size: 1.5em;
+}
+
+.color-cuadro{
+	background-color: #cddc39 ;
+
+}
+
+.Caja-higos{
+	border-radius: 50px;
+}
+
+.modal-content{
+	background-color: #dce775 ;
+	font-family: 'Rancho', cursive;
+
+}
+
+.texto-lechuga{
+	font-size: 2em;
+}
+
+.texto-higos{
+	font-size: 2em;
+}
+
+.texto-vegetales{
+	font-size: 2em;
+}
+
+.fila-ensalada{
+	margin-top:.4%; 
+}
+
+.chip{
+	margin: 2%;
+	width: 40%;
+	background-color: #9e9d24 ;
+	font-size: 2em;
+
+}
+.secciones{
+	color:white;
+	margin: 0;
+	font-size: 1.5em;
+		font-family: 'Rancho', cursive;;
+	}
+
+.Titulo-centrado{
+	font-family: 'Bubblegum Sans', cursive;
+	color: #e65100;
+}
+.margen-check{
+	margin: 2em;
+	size: 3em;
+}
+
+
+.color-menu{
+	color:blue;
+}
+
+.margenes-check{
+	margin: .5em;
+	color: black;
+}
+.ColorChip{
+	margin: 2%;
+	width: 40%;
+	background-color:#ff5722 ;
+	font-size: 2em
+
+	}
+
+.modal-content2{
+	background-color:#ffe082;
+	font-family: 'Rancho', cursive;
+
+
+	}
+
+.color-cuadro2{
+	background-color:#ffe082;
+
+}
+
+.color-cuadro3{
+	background-color: #ff5252;
+
+}
+.color-chip2{
+	background-color: #f44336 ;
+}
+.color-chip3{
+	background-color:#01579b;
+}
+
+.color-cuadro4{
+	background-color: #80deea ;
+
+}
